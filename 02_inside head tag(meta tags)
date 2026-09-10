@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8"/>	<!--we can use any character in web page-->
+			<meta http-equiv="X-UA-Compatible"content="IE=edge"><!--this site run in any oldest internet edge-->
+			<meta name ="viewport"content="width = device-width, initial-scale=1.0"/><!--for movie screen-->
+			<meta name ="description" content="free movies,anime and series download "/>
+			<meta name="keywords" content="movies,series,anime"/>
+			<meta name ="author" content="movie store company"/>
+			<link rel="stylesheet" href="style.css">
+			<script src="edit.js"></script>
+			<style>
+				body{
+				background-color:aqua;
+				}
+			</style>
+		<title>movies store</title>
+	</head>
+	<body>
+		jujutsu kaisen s1<br>
+		jujutsu kaisen s2<br>
+		jujutsu kaisen s2<br>
+	</body>
+</html>
