@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Now</title>
+    <style>
+        body {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">Registration Now</h1>
+    </header>
+    <main>
+        <form action="" style="text-align: center; "> 
+            <div>
+                <label for="fullName">Full Name: </label>
+                <input type="text" name="fullName" id="fullName">
+            </div><br>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div><br>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </div><br>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+            </div><br>
+            <div>
+                <label for="photo">Chose your image:</label>
+                <input type="file" name="photo" id="photo">
+            </div><br>
+            <div>
+                <label for="gender">Gender :</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="others" value="others">
+                <label for="others">Others</label>
+             </div> <br>
+            <div>
+            <label for="religion">Religion: </label>
+            <input type="checkbox" name="religion" id="islam" value="islam">
+            <label for="islam">Islam</label>
+            <input type="checkbox" name="religion" id="hindu" value="hindu">
+            <label for="hindu">Hindu</label>
+            <input type="checkbox" name="religion" id="others" value="others">
+            <label for="others">Others</label>
+                </div><br>
+                <div>
+                    <label for="depertment:">Depertment</label>
+                    <select name="depertment" id="depertment" required>
+                        <option value="none">None</option>
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="eng">ENG</option>
+                        <option value="bang">BANG</option>
+                        <option value="eco">ECO</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="massage" style="text-align: right;">Massage</label> <br>
+                    <textarea name="massage" id="massage" cols="25" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="registration now">
+                    <input type="reset" value="clear">
+                </div>
+
+        </form>
+    </main>
+</body>
+
+</html>
